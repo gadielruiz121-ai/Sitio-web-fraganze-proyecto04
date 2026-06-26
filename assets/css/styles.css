@@ -1,0 +1,39 @@
+
+/* tamaño del video y el audio */
+.multimedia {
+
+    width: 25rem;
+    height: auto;
+
+}
+
+/* tamaño de las imagenes del carrusel */
+.carousel-item img {
+
+    height: 30rem;
+
+}
+
+/* centrar las imagenes en el carrusel */
+.carousel-inner {
+
+    display: flex;
+    padding-left: 35%;
+
+}
+
+/* tamaño de las cards de productos y la transicion del movimiento */
+.card {
+
+    height: 32em;
+    transition: 0.2s ease;
+
+}
+
+/* hover para mover las cards hacia arriba y cambiar el color del texto */
+.card:hover {
+
+    transform: translateY(-5px);
+    color: rgba(17, 0, 255, 0.493);
+
+}
